@@ -27,6 +27,6 @@
     "rollup-cli": "^1.0.9"
   },
   "dependencies": {
-    "esm-bundle-test": "^9.0.0"
+    "esm-bundle-test": "^10.0.0"
   }
 }

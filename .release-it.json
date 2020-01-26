@@ -5,7 +5,9 @@
   "publishConfig": {
     "access": "public"
   },
-  "git.requireUpstream": false,
+  "git": {
+    "requireUpstream": false,
+  },
   "plugins": {
     "release-it-plugin-esm-bundle": {
     }

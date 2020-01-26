@@ -1,6 +1,6 @@
 {
   "name": "@esm-bundle/esm-bundle-test",
-  "version": "9.0.0",
+  "version": "11.0.0",
   "description": "Repo to test esm-bundle's automatic publishing",
   "main": "index.js",
   "scripts": {
@@ -29,6 +29,6 @@
   },
   "dependencies": {
     "@esm-bundle/esm-bundle-test": "^1.0.0",
-    "esm-bundle-test": "^9.0.0"
+    "esm-bundle-test": "^11.0.0"
   }
 }

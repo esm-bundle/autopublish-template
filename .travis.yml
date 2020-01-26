@@ -4,7 +4,7 @@ node_js:
 script: yarn test
 deploy:
   provider: script
-  script: echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" > .npmrc && yarn release
+  script: echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" > .npmrc && npm run release
   skip_cleanup: true
   on:
     branch: master

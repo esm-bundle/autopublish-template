@@ -560,10 +560,10 @@ esm-bundle-test@^1.0.1:
   resolved "https://registry.yarnpkg.com/esm-bundle-test/-/esm-bundle-test-1.0.11.tgz#45a05bfbe4975146848b0c8a3109c8db48a79aaf"
   integrity sha512-lpnKmeo1bYBQSaMCB2m2XZGltX32WWDGmoVwgyh5AIonBryAjlMm6PCTtE38PP/R0Q+LVjr56qB7Jg5XdS2lCQ==
 
-esm-bundle-test@^9.0.0:
-  version "9.0.0"
-  resolved "https://registry.yarnpkg.com/esm-bundle-test/-/esm-bundle-test-9.0.0.tgz#1feb95efa7fe4b55da1abe3f7f9fd33312a87747"
-  integrity sha512-cl9gd1LVHsmbkDsVvFN/LwaDMce/D0aNjuNmd5rdsLedtHoFYqmR1hTGBGkH1fJq7coHTsgSxFHgon4EXp2rgw==
+esm-bundle-test@^11.0.0:
+  version "11.0.0"
+  resolved "https://registry.yarnpkg.com/esm-bundle-test/-/esm-bundle-test-11.0.0.tgz#ab0ef3463065b624a5bf422ef3013d0d73b70414"
+  integrity sha512-ODx+rAYygplz59Z/mgpsPmRcozz7Ji17LoL47QjwSnqIYl/+mN0EE1oqhgH4loEHZlMks0G0j1RBoCs7NlIA5A==
 
 esprima@^4.0.0:
   version "4.0.1"

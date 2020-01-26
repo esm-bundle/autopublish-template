@@ -2,6 +2,13 @@
 # yarn lockfile v1
 
 
+"@esm-bundle/esm-bundle-test@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@esm-bundle/esm-bundle-test/-/esm-bundle-test-1.0.0.tgz#cb30c9f06c3980b337dfafd8bf3f11d2011123b3"
+  integrity sha512-IL9TWen65WM9ZAv0V7b93oS9kN6u4YeLtlVD46jI/Ts4IJ4r+oCzCuhZfL5Yh5Ex6q3OhxB8DK/OUOKb8LQQ/Q==
+  dependencies:
+    esm-bundle-test "^1.0.1"
+
 "@iarna/toml@2.2.3":
   version "2.2.3"
   resolved "https://registry.yarnpkg.com/@iarna/toml/-/toml-2.2.3.tgz#f060bf6eaafae4d56a7dac618980838b0696e2ab"
@@ -547,6 +554,11 @@ escape-string-regexp@^1.0.5:
   version "1.0.5"
   resolved "https://registry.yarnpkg.com/escape-string-regexp/-/escape-string-regexp-1.0.5.tgz#1b61c0562190a8dff6ae3bb2cf0200ca130b86d4"
   integrity sha1-G2HAViGQqN/2rjuyzwIAyhMLhtQ=
+
+esm-bundle-test@^1.0.1:
+  version "1.0.11"
+  resolved "https://registry.yarnpkg.com/esm-bundle-test/-/esm-bundle-test-1.0.11.tgz#45a05bfbe4975146848b0c8a3109c8db48a79aaf"
+  integrity sha512-lpnKmeo1bYBQSaMCB2m2XZGltX32WWDGmoVwgyh5AIonBryAjlMm6PCTtE38PP/R0Q+LVjr56qB7Jg5XdS2lCQ==
 
 esm-bundle-test@^9.0.0:
   version "9.0.0"

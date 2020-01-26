@@ -4,6 +4,7 @@
   "description": "Repo to test esm-bundle's automatic publishing",
   "main": "index.js",
   "scripts": {
+    "test": "echo 'No tests but that is fine'",
     "build": "rollup -c",
     "release": "release-it"
   },

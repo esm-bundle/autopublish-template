@@ -4,7 +4,9 @@ node_js:
 script: npm test
 deploy:
   provider: script
-  script: npm run release
+  script:
+    - echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" > .npmrc
+    - npm run release
   skip_cleanup: true
   on:
     branch: master

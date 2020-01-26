@@ -4,7 +4,8 @@
   "description": "Repo to test esm-bundle's automatic publishing",
   "main": "index.js",
   "scripts": {
-    "build": "rollup -c"
+    "build": "rollup -c",
+    "release": "release-it"
   },
   "files": [
     "index.js"
@@ -21,6 +22,7 @@
   "homepage": "https://github.com/esm-bundle/esm-bundle-test#readme",
   "devDependencies": {
     "@rollup/plugin-commonjs": "^11.0.1",
+    "release-it": "^12.4.3",
     "rollup": "^1.29.1",
     "rollup-cli": "^1.0.9"
   },

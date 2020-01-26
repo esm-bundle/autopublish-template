@@ -2,3 +2,4 @@
 # Minimal config. version is the only required field.
 version = 1
 approve.auto_approve_usernames = [ "joeldenning", "renovate" ]
+merge.method = "squash"

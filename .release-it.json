@@ -4,5 +4,9 @@
   },
   "publishConfig": {
     "access": "public"
+  },
+  "plugins": {
+    "./release-it-custom-version.js": {
+    }
   }
 }

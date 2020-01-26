@@ -3,6 +3,7 @@ node_js:
   - node
 script: npm test
 deploy:
+  provider: script
   script: npm run release
   on:
     branch: master

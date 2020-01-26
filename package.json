@@ -1,0 +1,30 @@
+{
+  "name": "@esm-bundle/esm-bundle-test",
+  "version": "1.0.0",
+  "description": "Repo to test esm-bundle's automatic publishing",
+  "main": "index.js",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "files": [
+    "index.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/esm-bundle/esm-bundle-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/esm-bundle/esm-bundle-test/issues"
+  },
+  "homepage": "https://github.com/esm-bundle/esm-bundle-test#readme",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^11.0.1",
+    "rollup": "^1.29.1",
+    "rollup-cli": "^1.0.9"
+  },
+  "dependencies": {
+    "esm-bundle-test": "^1.0.1"
+  }
+}

@@ -1,12 +1,10 @@
 language: node_js
 node_js:
   - node
-script: npm test
+script: yarn test
 deploy:
   provider: script
-  script:
-    - echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" > .npmrc
-    - npm run release
+  script: echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" > .npmrc && yarn release
   skip_cleanup: true
   on:
     branch: master

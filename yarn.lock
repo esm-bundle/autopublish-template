@@ -40,10 +40,10 @@ acorn@^7.1.0:
   resolved "https://registry.yarnpkg.com/acorn/-/acorn-7.1.0.tgz#949d36f2c292535da602283586c2477c57eb2d6c"
   integrity sha512-kL5CuoXA/dgxlBbVrflsflzQ3PAas7RYZB52NOm/6839iVYJgKMJ3cQJD+t2i5+qFa8h3MDpEOJiS64E8JLnSQ==
 
-esm-bundle-test@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/esm-bundle-test/-/esm-bundle-test-1.0.1.tgz#8a3d190e9997c13aa0c8d19c006b97de4405e638"
-  integrity sha512-2WE3MsK3+RnlfJq9Mx6zkzLlXgqf4NGLfYJ9S7lR09zgzKz1KXdsHEGvpJn08J0VhYiAby0o/xHacTj7pAYvnw==
+esm-bundle-test@^6.0.0:
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/esm-bundle-test/-/esm-bundle-test-6.0.0.tgz#7300e3034f1330eb27daba664db2157984ef5ce5"
+  integrity sha512-TXLel72SVCoXSAyBKBnSFIHkX/ZmLwMsXG9c8uS5+1+EkaEC5MYR87iVpxI826NVEg1K1hxfA0Lytoi16tg6+g==
 
 estree-walker@^0.6.1:
   version "0.6.1"

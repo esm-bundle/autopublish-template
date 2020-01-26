@@ -20,9 +20,9 @@
   },
   "homepage": "https://github.com/esm-bundle/esm-bundle-test#readme",
   "devDependencies": {
-    "@rollup/plugin-commonjs": "^11.0.1",
-    "rollup": "^1.29.1",
-    "rollup-cli": "^1.0.9"
+    "@rollup/plugin-commonjs": "11.0.1",
+    "rollup": "1.29.1",
+    "rollup-cli": "1.0.9"
   },
   "dependencies": {
     "esm-bundle-test": "^1.0.1"

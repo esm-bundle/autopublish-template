@@ -2,7 +2,7 @@
 # yarn lockfile v1
 
 
-"@rollup/plugin-commonjs@^11.0.1":
+"@rollup/plugin-commonjs@11.0.1":
   version "11.0.1"
   resolved "https://registry.yarnpkg.com/@rollup/plugin-commonjs/-/plugin-commonjs-11.0.1.tgz#6056a6757286901cc6c1599123e6680a78cad6c2"
   integrity sha512-SaVUoaLDg3KnIXC5IBNIspr1APTYDzk05VaYcI6qz+0XX3ZlSCwAkfAhNSOxfd5GAdcm/63Noi4TowOY9MpcDg==
@@ -81,12 +81,12 @@ resolve@^1.11.0:
   dependencies:
     path-parse "^1.0.6"
 
-rollup-cli@^1.0.9:
+rollup-cli@1.0.9:
   version "1.0.9"
   resolved "https://registry.yarnpkg.com/rollup-cli/-/rollup-cli-1.0.9.tgz#37f4a1c206311e292e3297ea97779db8a21db994"
   integrity sha1-N/ShwgYxHikuMpfql3eduKIduZQ=
 
-rollup@^1.29.1:
+rollup@1.29.1:
   version "1.29.1"
   resolved "https://registry.yarnpkg.com/rollup/-/rollup-1.29.1.tgz#8715d0a4ca439be3079f8095989ec8aa60f637bc"
   integrity sha512-dGQ+b9d1FOX/gluiggTAVnTvzQZUEkCi/TwZcax7ujugVRHs0nkYJlV9U4hsifGEMojnO+jvEML2CJQ6qXgbHA==

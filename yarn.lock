@@ -548,10 +548,10 @@ escape-string-regexp@^1.0.5:
   resolved "https://registry.yarnpkg.com/escape-string-regexp/-/escape-string-regexp-1.0.5.tgz#1b61c0562190a8dff6ae3bb2cf0200ca130b86d4"
   integrity sha1-G2HAViGQqN/2rjuyzwIAyhMLhtQ=
 
-esm-bundle-test@^13.0.0:
-  version "13.0.0"
-  resolved "https://registry.yarnpkg.com/esm-bundle-test/-/esm-bundle-test-13.0.0.tgz#11001de7ba4a254a061dda4e9640691742ac906a"
-  integrity sha512-YJtEcuhVmXOl9ddsnSeCaJYQ4ZIq2INcN9taXOEbFtYg7XpKh94Alibyvwnz6nfC5/Gyb88zx5dawEt+ZYmZAw==
+esm-bundle-test@^14.0.0:
+  version "14.0.0"
+  resolved "https://registry.yarnpkg.com/esm-bundle-test/-/esm-bundle-test-14.0.0.tgz#39e824facc76890203fab066e7cda2981f5ad175"
+  integrity sha512-OhU2WbfV3P/GhHDk7rIvwuuJcWCMxv4ww7pMInkmFzoMcoMzxNk+Cw81YXTtoV0GZvdy70e9PQTU+/V8p8uOXQ==
 
 esprima@^4.0.0:
   version "4.0.1"

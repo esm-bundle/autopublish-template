@@ -8,8 +8,5 @@
   "plugins": {
     "release-it-plugin-esm-bundle": {
     }
-  },
-  "hooks": {
-    "before:init": ["git checkout master"]
   }
 }

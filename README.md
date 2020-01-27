@@ -1,6 +1,6 @@
 # autopublish-template
 
-[![Build Status](https://travis-ci.com/esm-bundle/esm-bundle-test.svg?branch=master)](https://travis-ci.com/esm-bundle/autopublish-template)
+[![Build Status](https://travis-ci.com/esm-bundle/esm-autopublish-template.svg?branch=master)](https://travis-ci.com/esm-bundle/autopublish-template)
 
 A repo that tests automatic detection of upstream publishes and the publishing of `@esm-bundle` versions of them.
 

@@ -4,8 +4,7 @@ node_js:
 script: yarn test
 deploy:
   provider: script
-  script: |
-    git remote remove origin
+  script: git remote remove origin
   skip_cleanup: true
   on:
     branch: master

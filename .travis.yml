@@ -4,12 +4,7 @@ node_js:
 script: yarn test
 deploy:
   provider: script
-  script: |
-    git remote remove origin
-    && git remote add origin https://${GITHUB_USERNAME}:${GITHUB_TOKEN}@github.com/$TRAVIS_REPO_SLUG
-    && git symbolic-ref HEAD refs/heads/master
-    && echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" > .npmrc
-    && npm run release
+  script: git remote remove origin && git remote add origin https://${GITHUB_USERNAME}:${GITHUB_TOKEN}@github.com/$TRAVIS_REPO_SLUG && git symbolic-ref HEAD refs/heads/master && echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" > .npmrc && npm run release
   skip_cleanup: true
   on:
     branch: master

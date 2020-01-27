@@ -1,12 +1,10 @@
-import commonjs from '@rollup/plugin-commonjs'
+import commonjs from "@rollup/plugin-commonjs";
 
 export default {
-  input: require.resolve('esm-bundle-test'),
+  input: require.resolve("autopublish-template"),
   output: {
-    file: 'index.js',
-    format: 'module'
+    file: "index.js",
+    format: "module"
   },
-  plugins: [
-    commonjs()
-  ]
-}
+  plugins: [commonjs()]
+};

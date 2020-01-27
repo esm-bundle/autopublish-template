@@ -1,34 +1,43 @@
 {
-  "name": "@esm-bundle/esm-bundle-test",
+  "name": "@esm-bundle/autopublish-template",
   "version": "14.0.0",
   "description": "Repo to test esm-bundle's automatic publishing",
   "main": "index.js",
   "scripts": {
     "test": "echo 'No tests but that is fine'",
     "build": "rollup -c",
+    "prettier": "prettier --write './**/*'",
     "release": "release-it"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
   },
   "files": [
     "index.js"
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/esm-bundle/esm-bundle-test.git"
+    "url": "git+https://github.com/esm-bundle/autopublish-template.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/esm-bundle/esm-bundle-test/issues"
+    "url": "https://github.com/esm-bundle/autopublish-template/issues"
   },
-  "homepage": "https://github.com/esm-bundle/esm-bundle-test#readme",
+  "homepage": "https://github.com/esm-bundle/autopublish-template#readme",
   "devDependencies": {
     "@rollup/plugin-commonjs": "^11.0.1",
+    "husky": "^4.2.1",
+    "prettier": "^1.19.1",
+    "pretty-quick": "^2.0.1",
     "release-it": "^12.4.3",
     "release-it-plugin-esm-bundle": "^1.0.0",
     "rollup": "^1.29.1",
     "rollup-cli": "^1.0.9"
   },
   "dependencies": {
-    "esm-bundle-test": "^14.0.0"
+    "autopublish-template": "^16.0.0"
   }
 }

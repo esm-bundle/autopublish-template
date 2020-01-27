@@ -1,6 +1,6 @@
 {
   "name": "@esm-bundle/autopublish-template",
-  "version": "16.0.0-build.0",
+  "version": "17.0.0",
   "description": "Repo to test esm-bundle's automatic publishing",
   "main": "index.js",
   "scripts": {
@@ -38,6 +38,6 @@
     "rollup-cli": "^1.0.9"
   },
   "dependencies": {
-    "autopublish-template": "^16.0.0"
+    "autopublish-template": "^17.0.0"
   }
 }

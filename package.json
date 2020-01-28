@@ -38,6 +38,6 @@
     "rollup-cli": "^1.0.9"
   },
   "dependencies": {
-    "autopublish-template": "^17.0.0"
+    "autopublish-template": "^18.0.0"
   }
 }

@@ -270,10 +270,10 @@ atob-lite@^2.0.0:
   resolved "https://registry.yarnpkg.com/atob-lite/-/atob-lite-2.0.0.tgz#0fef5ad46f1bd7a8502c65727f0367d5ee43d696"
   integrity sha1-D+9a1G8b16hQLGVyfwNn1e5D1pY=
 
-autopublish-template@^19.0.0:
-  version "19.0.0"
-  resolved "https://registry.yarnpkg.com/autopublish-template/-/autopublish-template-19.0.0.tgz#48dc3249993b86a0256a302c2c1cf81a591a5591"
-  integrity sha512-HZScUXz8m42NirGl1sOl1K5yq7bjKs8RQtVWEksM2epiL/OgtXAFiKDqPRZ+FzA0sMb/XChaEA08empqd5Yb2g==
+autopublish-template@^20.0.0:
+  version "20.0.0"
+  resolved "https://registry.yarnpkg.com/autopublish-template/-/autopublish-template-20.0.0.tgz#aec377281398793f38a553e0c9277b0e65edba2a"
+  integrity sha512-OXzSKHdY8zu1VxGm3ibWtiX2FcQYi2mge9pECwnLN0MJAWfy60UNZfAosvJZ35CxV2V6cjcdqgVYzUIVHtFypA==
 
 balanced-match@^1.0.0:
   version "1.0.0"

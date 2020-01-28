@@ -1719,10 +1719,10 @@ registry-url@^5.0.0:
   dependencies:
     rc "^1.2.8"
 
-release-it-plugin-esm-bundle@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/release-it-plugin-esm-bundle/-/release-it-plugin-esm-bundle-1.0.0.tgz#ac30aa8b6a418c842eb73c55115ab150a1058f49"
-  integrity sha512-kwFu+bQaZlB7UL8KuvasIIgnvATHAPx5KDp+cobGgQGxQSlfJy8vsOgMZTuA4O243wKZtLwq380hS+tIKTPMig==
+release-it-plugin-esm-bundle@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/release-it-plugin-esm-bundle/-/release-it-plugin-esm-bundle-1.1.0.tgz#6aa083fde56764f111c2aa70a189d669cdfe45c0"
+  integrity sha512-Gyw+xoYg4R5C59O9vgz2Of+17bYMxSj/eGUGX+SWMWGfVQ9OFY8nFsmIu0phRsfehjQHAAyuSPplDc3o64Webw==
 
 release-it@^12.4.3:
   version "12.4.3"
@@ -1810,10 +1810,10 @@ rollup-cli@^1.0.9:
   resolved "https://registry.yarnpkg.com/rollup-cli/-/rollup-cli-1.0.9.tgz#37f4a1c206311e292e3297ea97779db8a21db994"
   integrity sha1-N/ShwgYxHikuMpfql3eduKIduZQ=
 
-rollup@^1.29.1:
-  version "1.29.1"
-  resolved "https://registry.yarnpkg.com/rollup/-/rollup-1.29.1.tgz#8715d0a4ca439be3079f8095989ec8aa60f637bc"
-  integrity sha512-dGQ+b9d1FOX/gluiggTAVnTvzQZUEkCi/TwZcax7ujugVRHs0nkYJlV9U4hsifGEMojnO+jvEML2CJQ6qXgbHA==
+rollup@^1.30.1:
+  version "1.30.1"
+  resolved "https://registry.yarnpkg.com/rollup/-/rollup-1.30.1.tgz#3fd28d6198beb2f3cd1640732047d5ec16c2d3a0"
+  integrity sha512-Uus8mwQXwaO+ZVoNwBcXKhT0AvycFCBW/W8VZtkpVGsotRllWk9oldfCjqWmTnFRI0y7x6BnEqSqc65N+/YdBw==
   dependencies:
     "@types/estree" "*"
     "@types/node" "*"

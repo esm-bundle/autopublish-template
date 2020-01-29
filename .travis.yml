@@ -1,8 +1,8 @@
 language: node_js
 node_js:
   - node
-services:
-  - xvfb
+addons:
+  chrome: stable
 script: yarn test && yarn build
 deploy:
   provider: script

@@ -10,11 +10,13 @@ Upstream repo at https://github.com/joeldenning/autopublish-template.
 
 ## JS Delivr
 
-https://cdn.jsdelivr.net/npm/@esm-bundle/autopublish-template/index.js
+https://cdn.jsdelivr.net/npm/@esm-bundle/autopublish-template/esm/index.js
+https://cdn.jsdelivr.net/npm/@esm-bundle/autopublish-template/system/index.js
 
 ## Unpkg
 
-https://unpkg.com/@esm-bundle/autopublish-template/index.js
+https://unpkg.com/@esm-bundle/autopublish-template/esm/index.js
+https://unpkg.com/@esm-bundle/autopublish-template/system/index.js
 
 ## Yarn
 

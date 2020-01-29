@@ -1,4 +1,4 @@
-describe("esm-autopublish", () => {
+describe("@esm-bundle/autopublish-template", () => {
   it("can load the ESM bundle", () => {
     return import("/base/esm/index.js");
   });

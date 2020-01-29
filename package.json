@@ -11,7 +11,8 @@
     "test:unit": "mocha -r chai/register-expect 'node-test/**/*.*'",
     "build": "rollup -c",
     "prettier": "prettier --write './**/*'",
-    "release": "release-it"
+    "release": "release-it",
+    "prepublishOnly": "yarn build"
   },
   "husky": {
     "hooks": {

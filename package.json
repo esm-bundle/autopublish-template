@@ -36,6 +36,7 @@
   "homepage": "https://github.com/esm-bundle/autopublish-template#readme",
   "devDependencies": {
     "@rollup/plugin-commonjs": "^11.0.1",
+    "autopublish-template": "^20.0.0",
     "chai": "^4.2.0",
     "concurrently": "^5.1.0",
     "husky": "^4.2.1",
@@ -51,7 +52,5 @@
     "rollup": "^1.30.1",
     "rollup-cli": "^1.0.9"
   },
-  "dependencies": {
-    "autopublish-template": "^20.0.0"
-  }
+  "dependencies": {}
 }

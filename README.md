@@ -6,7 +6,6 @@ A repo that tests automatic detection of upstream publishes and the publishing o
 
 Upstream repo at https://github.com/joeldenning/autopublish-template.
 
-````sh
 ## JS Delivr
 
 https://cdn.jsdelivr.net/npm/@esm-bundle/autopublish-template/index.js
@@ -19,4 +18,4 @@ https://unpkg.com/@esm-bundle/autopublish-template/index.js
 
 ```sh
 yarn add autopublish-template@npm:@esm-bundle/autopublish-template
-````
+```

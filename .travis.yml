@@ -1,8 +1,13 @@
 language: node_js
 node_js:
   - node
+env:
+  global:
+    - MOZ_HEADLESS=1
 addons:
-  chrome: stable
+  firefox: latest
+services:
+  - xvfb
 script: yarn test && yarn build
 deploy:
   provider: script

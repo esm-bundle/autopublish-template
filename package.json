@@ -4,10 +4,11 @@
   "description": "Repo to test esm-bundle's automatic publishing",
   "main": "index.js",
   "module": "esm/index.js",
+  "type": "module",
   "scripts": {
     "test": "yarn build && concurrently yarn:test:unit yarn:test:browser",
-    "test:browser": "karma start --single-run",
-    "test:browser:debug": "karma start",
+    "test:browser": "karma start karma.conf.cjs --single-run",
+    "test:browser:debug": "karma start karma.conf.cjs",
     "test:unit": "mocha -r chai/register-expect 'node-test/**/*.*'",
     "build": "rollup -c",
     "prettier": "prettier --write './**/*'",

@@ -4493,10 +4493,10 @@ registry-url@^5.0.0:
   dependencies:
     rc "^1.2.8"
 
-release-it-plugin-esm-bundle@^1.1.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/release-it-plugin-esm-bundle/-/release-it-plugin-esm-bundle-1.1.0.tgz#6aa083fde56764f111c2aa70a189d669cdfe45c0"
-  integrity sha512-Gyw+xoYg4R5C59O9vgz2Of+17bYMxSj/eGUGX+SWMWGfVQ9OFY8nFsmIu0phRsfehjQHAAyuSPplDc3o64Webw==
+release-it-plugin-esm-bundle@^1.1.1:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/release-it-plugin-esm-bundle/-/release-it-plugin-esm-bundle-1.1.1.tgz#a6ed7a3fe0f27b0fcdfd4eaa53e736ca3f472615"
+  integrity sha512-bRAUQNRnfT38yddDxQNmvCh+46fhDWS/7ORaUyvDo9HMR/yVtqjX28292BMFqBjzT+2lJMZfZBFeTZIaA/LQFA==
 
 release-it@^12.4.3:
   version "12.4.3"

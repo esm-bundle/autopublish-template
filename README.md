@@ -1,6 +1,6 @@
 # autopublish-template
 
-[![build status](https://travis-ci.com/esm-bundle/autopublish-template.svg?branch=master)](https://travis-ci.com/esm-bundle/autopublish-template)
+[![build status](https://travis-ci.com/esm-bundle/autopublish-template.svg?branch=master)](https://travis-ci.com/esm-bundle/autopublish-template) [![](https://data.jsdelivr.com/v1/package/npm/@esm-bundle/react/badge)](https://www.jsdelivr.com/package/npm/@esm-bundle/react)
 
 [Instructions for creating a new esm-bundle repo](https://github.com/esm-bundle/new-repo-instructions)
 
@@ -19,6 +19,11 @@ https://cdn.jsdelivr.net/npm/@esm-bundle/autopublish-template/system/index.js
 https://unpkg.com/@esm-bundle/autopublish-template/esm/index.js
 
 https://unpkg.com/@esm-bundle/autopublish-template/system/index.js
+
+## Npm
+```sh
+npm install --save autopublish-template@npm:@esm-bundle/autopublish-template
+```
 
 ## Yarn
 

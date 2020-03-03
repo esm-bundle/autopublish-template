@@ -4710,7 +4710,7 @@ rollup-cli@1.0.9:
   resolved "https://registry.yarnpkg.com/rollup-cli/-/rollup-cli-1.0.9.tgz#37f4a1c206311e292e3297ea97779db8a21db994"
   integrity sha1-N/ShwgYxHikuMpfql3eduKIduZQ=
 
-rollup-plugin-terser@^5.2.0:
+rollup-plugin-terser@5.2.0:
   version "5.2.0"
   resolved "https://registry.yarnpkg.com/rollup-plugin-terser/-/rollup-plugin-terser-5.2.0.tgz#ba758adf769347b7f1eaf9ef35978d2e207dccc7"
   integrity sha512-jQI+nYhtDBc9HFRBz8iGttQg7li9klmzR62RG2W2nN6hJ/FI2K2ItYQ7kJ7/zn+vs+BP1AEccmVRjRN989I+Nw==

@@ -1,4 +1,5 @@
 import commonjs from "@rollup/plugin-commonjs";
+import { terser } from "rollup-plugin-terser";
 
 function createConfig(format) {
   const dir = format === "module" ? "esm" : format;
@@ -6,9 +7,10 @@ function createConfig(format) {
     input: require.resolve("autopublish-template"),
     output: {
       file: `${dir}/index.js`,
+      sourcemap: true,
       format
     },
-    plugins: [commonjs()]
+    plugins: [commonjs(), terser()]
   };
 }
 

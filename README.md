@@ -23,6 +23,7 @@ https://unpkg.com/@esm-bundle/autopublish-template/esm/index.js
 https://unpkg.com/@esm-bundle/autopublish-template/system/index.js
 
 ## Npm
+
 ```sh
 npm install --save autopublish-template@npm:@esm-bundle/autopublish-template
 ```

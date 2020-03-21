@@ -8,9 +8,9 @@ function createConfig(format) {
     output: {
       file: `${dir}/index.js`,
       sourcemap: true,
-      format
+      format,
     },
-    plugins: [commonjs(), terser()]
+    plugins: [commonjs(), terser()],
   };
 }
 

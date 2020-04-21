@@ -37,6 +37,6 @@
   "homepage": "https://github.com/esm-bundle/autopublish-template#readme",
   "devDependencies": {
     "autopublish-template": "20.0.0",
-    "esm-bundle-scripts": "1.1.0"
+    "esm-bundle-scripts": "1.2.0"
   }
 }

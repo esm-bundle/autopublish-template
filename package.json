@@ -30,7 +30,7 @@
     "url": "git+https://github.com/esm-bundle/autopublish-template.git"
   },
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/esm-bundle/autopublish-template/issues"
   },

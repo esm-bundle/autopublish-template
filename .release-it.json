@@ -2,9 +2,6 @@
   "github": {
     "release": true
   },
-  "publishConfig": {
-    "access": "public"
-  },
   "plugins": {
     "release-it-plugin-esm-bundle": {}
   }

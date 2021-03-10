@@ -42,6 +42,7 @@ jobs:
       - name: Setup auth
         run: |
           echo "https://esm-bundle-org-bot:$BOT_TOKEN@github.com" > ~/.git-credentials
+          git config --global credential.helper store
           echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" > .npmrc
       - name: "Publish to npm"
         run: pnpm run release

@@ -35,7 +35,7 @@
   "devDependencies": {
     "@rollup/plugin-commonjs": "17.1.0",
     "@rollup/plugin-node-resolve": "11.2.0",
-    "autopublish-template": "20.0.7",
+    "autopublish-template": "20.0.8",
     "chai": "4.3.4",
     "concurrently": "6.0.0",
     "husky": "5.1.3",

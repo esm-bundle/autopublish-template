@@ -27,6 +27,7 @@ jobs:
       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       GITHUB_USER: ${{ secrets.GITHUB_ACTOR }}
       BOT_TOKEN: ${{ secrets.PUBLISH_BOT }}
+      BOT_EMAIL: ${{ secrets.PUBLISH_BOT_EMAIL }}
       MOZ_HEADLESS: 1
     needs: build
     if: github.ref == 'refs/heads/main'
@@ -41,7 +42,8 @@ jobs:
       - run: pnpm install --frozen-lockfile
       - name: Setup auth
         run: |
-          git config --global user.name esm-bundle-org-bot
+          git config --global user.email "$BOT_EMAIL"
+          git config --global user.name "esm-bundle-org-bot"
           echo "https://esm-bundle-org-bot:$BOT_TOKEN@github.com" > .my-git-credentials
           git config --global credential.helper 'store --file .my-git-credentials'
           echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" > .npmrc

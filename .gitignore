@@ -108,3 +108,4 @@ system
 
 # fake stuff
 .my-git-credentials
+.my-git-credentials-backup

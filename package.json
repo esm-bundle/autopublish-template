@@ -13,7 +13,7 @@
     "test:formatting": "prettier --check .",
     "build": "rollup -c",
     "format": "prettier --write .",
-    "release": "release-it",
+    "release": "release-it -VV",
     "prepublishOnly": "pnpm run build && pinst --disable",
     "postinstall": "husky install",
     "postpublish": "pinst --enable"

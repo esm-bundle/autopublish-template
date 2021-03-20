@@ -7,8 +7,5 @@
   },
   "npm": {
     "publishPath": ". --access=public"
-  },
-  "git": {
-    "pushArgs": "--follow-tags -f"
   }
 }

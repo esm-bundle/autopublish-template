@@ -33,5 +33,3 @@ npm install --save autopublish-template@npm:@esm-bundle/autopublish-template
 ```sh
 yarn add autopublish-template@npm:@esm-bundle/autopublish-template
 ```
-
-test

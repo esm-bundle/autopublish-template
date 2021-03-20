@@ -1,7 +1,6 @@
 {
   "github": {
-    "release": true,
-    "tokenRef": "BOT_TOKEN"
+    "release": true
   },
   "plugins": {
     "release-it-plugin-esm-bundle": {}

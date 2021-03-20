@@ -24,9 +24,10 @@ jobs:
     runs-on: ubuntu-latest
     env:
       NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-      GITHUB_TOKEN: ${{ secrets.PUBLISH_BOT }}
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      GITHUB_USER: ${{ secrets.GITHUB_ACTOR }}
+      BOT_TOKEN: ${{ secrets.PUBLISH_BOT }}
       BOT_EMAIL: ${{ secrets.PUBLISH_BOT_EMAIL }}
-      MOZ_HEADLESS: 1
     needs: build
     if: github.ref == 'refs/heads/main'
     steps:

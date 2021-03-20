@@ -5,7 +5,7 @@
   "plugins": {
     "release-it-plugin-esm-bundle": {}
   },
-  "npm": {
-    "publishPath": ". --access=public"
+  "publishConfig": {
+    "access": "public"
   }
 }

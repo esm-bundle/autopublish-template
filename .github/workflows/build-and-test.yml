@@ -23,9 +23,12 @@ jobs:
   publish:
     runs-on: ubuntu-latest
     env:
+      # used by 'release-it'
       NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
       GITHUB_TOKEN: ${{ secrets.PUBLISH_BOT }}
+      # used manually in setting git config
       BOT_EMAIL: ${{ secrets.PUBLISH_BOT_EMAIL }}
+      # used by unit tests
       MOZ_HEADLESS: 1
     needs: build
     if: github.ref == 'refs/heads/main'

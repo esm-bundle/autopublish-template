@@ -44,8 +44,8 @@ jobs:
       - run: pnpm install --frozen-lockfile
       - name: Setup auth
         run: |
-          git config --global user.email "$BOT_EMAIL"
-          git config --global user.name "esm-bundle-org-bot"
+          # git config --global user.email "$BOT_EMAIL"
+          # git config --global user.name "esm-bundle-org-bot"
           echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" > .npmrc
       - name: "Publish to npm"
         run: pnpm run release

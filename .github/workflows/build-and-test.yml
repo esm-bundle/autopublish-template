@@ -44,9 +44,6 @@ jobs:
         run: |
           git config --global user.email "$BOT_EMAIL"
           git config --global user.name "esm-bundle-org-bot"
-          # echo "https://esm-bundle-org-bot:$BOT_TOKEN@github.com" > .my-git-credentials
-          # git config --global credential.helper 'store --file .my-git-credentials'
-          # echo "$(cat ~/.gitconfig)"
           echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" > .npmrc
       - name: "Publish to npm"
         run: pnpm run release

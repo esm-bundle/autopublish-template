@@ -1,7 +1,7 @@
 devDependencies:
   '@rollup/plugin-commonjs': 17.1.0_rollup@2.42.1
   '@rollup/plugin-node-resolve': 11.2.0_rollup@2.42.1
-  autopublish-template: 20.0.10
+  autopublish-template: 20.0.11
   chai: 4.3.4
   concurrently: 6.0.0
   husky: 5.1.3
@@ -427,10 +427,10 @@ packages:
     dev: true
     resolution:
       integrity: sha1-x57Zf380y48robyXkLzDZkdLS3k=
-  /autopublish-template/20.0.10:
+  /autopublish-template/20.0.11:
     dev: true
     resolution:
-      integrity: sha512-Bv+zUz6sv2tWj3S1QhECfas2vADddFvbm6Vnye/j/MvhVdPAqXMBaik7ySPP68aI0e1PrNdH5wmRoc60AUDEyA==
+      integrity: sha512-06hXpdTxb5LDGhBSd7+AZ6bcPfZasbr+8GenKG4HlN554uXibvu5fqUz7w+t/XHNcRKvPThrw4y7XtmfhMr8WQ==
   /balanced-match/1.0.0:
     dev: true
     resolution:
@@ -3388,7 +3388,7 @@ packages:
 specifiers:
   '@rollup/plugin-commonjs': 17.1.0
   '@rollup/plugin-node-resolve': 11.2.0
-  autopublish-template: 20.0.10
+  autopublish-template: 20.0.11
   chai: 4.3.4
   concurrently: 6.0.0
   husky: 5.1.3

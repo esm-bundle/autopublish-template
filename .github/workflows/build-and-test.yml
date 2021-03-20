@@ -32,6 +32,8 @@ jobs:
     steps:
       - uses: actions/checkout@v2
         with:
+          # Use our own token instead of the default token
+          # this step persists login credentials so strongly that we couldn't get them to override
           token: ${{ secrets.PUBLISH_BOT }}
       - uses: actions/setup-node@v2
         with:

@@ -1,5 +1,5 @@
 devDependencies:
-  '@rollup/plugin-commonjs': 17.1.0_rollup@2.42.4
+  '@rollup/plugin-commonjs': 18.0.0_rollup@2.42.4
   '@rollup/plugin-node-resolve': 11.2.1_rollup@2.42.4
   autopublish-template: 20.0.20
   chai: 4.3.4
@@ -174,7 +174,7 @@ packages:
     dev: true
     resolution:
       integrity: sha512-kCkiN8scbCmSq+gwdJV0iLgHc0O/GTPY1/cffo9kECu1MvatLPh9E+qFhfRIktKfHEA6ZYvv6S1B4Wnv3bi3pA==
-  /@rollup/plugin-commonjs/17.1.0_rollup@2.42.4:
+  /@rollup/plugin-commonjs/18.0.0_rollup@2.42.4:
     dependencies:
       '@rollup/pluginutils': 3.1.0_rollup@2.42.4
       commondir: 1.0.1
@@ -190,7 +190,7 @@ packages:
     peerDependencies:
       rollup: ^2.30.0
     resolution:
-      integrity: sha512-PoMdXCw0ZyvjpCMT5aV4nkL0QywxP29sODQsSGeDpr/oI49Qq9tRtAsb/LbYbDzFlOydVEqHmmZWFtXJEAX9ew==
+      integrity: sha512-fj92shhg8luw7XbA0HowAqz90oo7qtLGwqTKbyZ8pmOyH8ui5e+u0wPEgeHLH3djcVma6gUCUrjY6w5R2o1u6g==
   /@rollup/plugin-node-resolve/11.2.1_rollup@2.42.4:
     dependencies:
       '@rollup/pluginutils': 3.1.0_rollup@2.42.4
@@ -3386,7 +3386,7 @@ packages:
     resolution:
       integrity: sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==
 specifiers:
-  '@rollup/plugin-commonjs': 17.1.0
+  '@rollup/plugin-commonjs': 18.0.0
   '@rollup/plugin-node-resolve': 11.2.1
   autopublish-template: 20.0.20
   chai: 4.3.4

@@ -4,7 +4,7 @@ devDependencies:
   autopublish-template: 20.0.20
   chai: 4.3.4
   concurrently: 6.0.0
-  husky: 5.2.0
+  husky: 6.0.0
   karma: 6.3.1
   karma-firefox-launcher: 2.1.0
   karma-jasmine: 4.0.1_karma@6.3.1
@@ -1522,13 +1522,11 @@ packages:
       node: '>=10.17.0'
     resolution:
       integrity: sha512-B4FFZ6q/T2jhhksgkbEW3HBvWIfDW85snkQgawt07S7J5QXTk6BkNV+0yAeZrM5QpMAdYlocGoljn0sJ/WQkFw==
-  /husky/5.2.0:
+  /husky/6.0.0:
     dev: true
-    engines:
-      node: '>= 10'
     hasBin: true
     resolution:
-      integrity: sha512-AM8T/auHXRBxlrfPVLKP6jt49GCM2Zz47m8G3FOMsLmTv8Dj/fKVWE0Rh2d4Qrvmy131xEsdQnb3OXRib67PGg==
+      integrity: sha512-SQS2gDTB7tBN486QSoKPKQItZw97BMOd+Kdb6ghfpBc0yXyzrddI0oDV5MkDAbuB4X2mO3/nj60TRMcYxwzZeQ==
   /iconv-lite/0.4.24:
     dependencies:
       safer-buffer: 2.1.2
@@ -3391,7 +3389,7 @@ specifiers:
   autopublish-template: 20.0.20
   chai: 4.3.4
   concurrently: 6.0.0
-  husky: 5.2.0
+  husky: 6.0.0
   karma: 6.3.1
   karma-firefox-launcher: 2.1.0
   karma-jasmine: 4.0.1

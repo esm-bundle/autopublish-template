@@ -41,7 +41,7 @@
     "autopublish-template": "20.0.20",
     "chai": "4.3.4",
     "concurrently": "6.2.0",
-    "husky": "7.0.0",
+    "husky": "7.0.1",
     "karma": "6.3.4",
     "karma-firefox-launcher": "2.1.1",
     "karma-jasmine": "4.0.1",

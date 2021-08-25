@@ -6,7 +6,7 @@ specifiers:
   autopublish-template: 20.0.20
   chai: 4.3.4
   concurrently: 6.2.1
-  husky: 7.0.1
+  husky: 7.0.2
   karma: 6.3.4
   karma-firefox-launcher: 2.1.1
   karma-jasmine: 4.0.1
@@ -25,7 +25,7 @@ devDependencies:
   autopublish-template: 20.0.20
   chai: 4.3.4
   concurrently: 6.2.1
-  husky: 7.0.1
+  husky: 7.0.2
   karma: 6.3.4
   karma-firefox-launcher: 2.1.1
   karma-jasmine: 4.0.1_karma@6.3.4
@@ -1472,8 +1472,8 @@ packages:
     engines: {node: '>=10.17.0'}
     dev: true
 
-  /husky/7.0.1:
-    resolution: {integrity: sha512-gceRaITVZ+cJH9sNHqx5tFwbzlLCVxtVZcusME8JYQ8Edy5mpGDOqD8QBCdMhpyo9a+JXddnujQ4rpY2Ff9SJA==}
+  /husky/7.0.2:
+    resolution: {integrity: sha512-8yKEWNX4z2YsofXAMT7KvA1g8p+GxtB1ffV8XtpAEGuXNAbCV5wdNKH+qTpw8SM9fh4aMPDR+yQuKfgnreyZlg==}
     engines: {node: '>=12'}
     hasBin: true
     dev: true

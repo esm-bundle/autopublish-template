@@ -37,7 +37,7 @@
   "homepage": "https://github.com/esm-bundle/autopublish-template#readme",
   "devDependencies": {
     "@rollup/plugin-commonjs": "21.0.0",
-    "@rollup/plugin-node-resolve": "13.0.5",
+    "@rollup/plugin-node-resolve": "13.0.6",
     "autopublish-template": "20.0.20",
     "chai": "4.3.4",
     "concurrently": "6.3.0",

@@ -40,7 +40,7 @@
     "@rollup/plugin-node-resolve": "13.0.6",
     "autopublish-template": "20.0.20",
     "chai": "4.3.4",
-    "concurrently": "6.3.0",
+    "concurrently": "6.4.0",
     "husky": "7.0.4",
     "karma": "6.3.8",
     "karma-firefox-launcher": "2.1.2",

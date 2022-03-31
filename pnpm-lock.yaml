@@ -14,7 +14,7 @@ specifiers:
   pinst: 3.0.0
   prettier: 2.6.1
   pretty-quick: 3.1.3
-  release-it: 14.13.1
+  release-it: 14.14.0
   release-it-plugin-esm-bundle: 2.1.0
   rollup: 2.70.1
   rollup-plugin-terser: 7.0.2
@@ -33,7 +33,7 @@ devDependencies:
   pinst: 3.0.0
   prettier: 2.6.1
   pretty-quick: 3.1.3_prettier@2.6.1
-  release-it: 14.13.1
+  release-it: 14.14.0
   release-it-plugin-esm-bundle: 2.1.0
   rollup: 2.70.1
   rollup-plugin-terser: 7.0.2_rollup@2.70.1
@@ -325,7 +325,7 @@ packages:
     resolution: {integrity: sha512-Il80Qs2WjYlJIBNzNkK6KYqlVMTbZLXgHx2oT0pU/fjRHyEp+PEfEPY0R3WCwAGVOtauxh1hOxNgIf5bv7dQpA==}
     engines: {node: '>= 0.6'}
     dependencies:
-      mime-types: 2.1.34
+      mime-types: 2.1.35
       negotiator: 0.6.2
     dev: true
 
@@ -814,18 +814,6 @@ packages:
       ms: 2.0.0
     dev: true
 
-  /debug/4.3.3:
-    resolution: {integrity: sha512-/zxw5+vh1Tfv+4Qn7a5nsbcJKPaSvCDhojn6FEl9vupwK2VCSDtEiEtqr8DFtzYFOdz63LBkxec7DYuc2jon6Q==}
-    engines: {node: '>=6.0'}
-    peerDependencies:
-      supports-color: '*'
-    peerDependenciesMeta:
-      supports-color:
-        optional: true
-    dependencies:
-      ms: 2.1.2
-    dev: true
-
   /debug/4.3.3_supports-color@8.1.1:
     resolution: {integrity: sha512-/zxw5+vh1Tfv+4Qn7a5nsbcJKPaSvCDhojn6FEl9vupwK2VCSDtEiEtqr8DFtzYFOdz63LBkxec7DYuc2jon6Q==}
     engines: {node: '>=6.0'}
@@ -837,6 +825,18 @@ packages:
     dependencies:
       ms: 2.1.2
       supports-color: 8.1.1
+    dev: true
+
+  /debug/4.3.4:
+    resolution: {integrity: sha512-PRWFHuSU3eDtQJPvnNY7Jcket1j0t5OuOsFzPPzsekD52Zl8qUfFIPEiswXqIvHWGVHOgX+7G/vCNNhehwxfkQ==}
+    engines: {node: '>=6.0'}
+    peerDependencies:
+      supports-color: '*'
+    peerDependenciesMeta:
+      supports-color:
+        optional: true
+    dependencies:
+      ms: 2.1.2
     dev: true
 
   /decamelize/4.0.0:
@@ -986,7 +986,7 @@ packages:
       base64id: 2.0.0
       cookie: 0.4.1
       cors: 2.8.5
-      debug: 4.3.3
+      debug: 4.3.4
       engine.io-parser: 5.0.1
       ws: 8.2.3
     transitivePeerDependencies:
@@ -1175,7 +1175,7 @@ packages:
     dependencies:
       asynckit: 0.4.0
       combined-stream: 1.0.8
-      mime-types: 2.1.34
+      mime-types: 2.1.35
     dev: true
 
   /fs-extra/10.0.0:
@@ -1473,9 +1473,9 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  /inquirer/8.2.0:
-    resolution: {integrity: sha512-0crLweprevJ02tTuA6ThpoAERAGyVILC4sS74uib58Xf/zSr1/ZWtmm7D5CI+bSQEaA04f0K7idaHpQbSWgiVQ==}
-    engines: {node: '>=8.0.0'}
+  /inquirer/8.2.2:
+    resolution: {integrity: sha512-pG7I/si6K/0X7p1qU+rfWnpTE1UIkTONN1wxtzh0d+dHXtT/JG6qBgLxoyHVsQa8cFABxAPh0pD6uUUHiAoaow==}
+    engines: {node: '>=12.0.0'}
     dependencies:
       ansi-escapes: 4.3.1
       chalk: 4.1.2
@@ -1487,7 +1487,7 @@ packages:
       mute-stream: 0.0.8
       ora: 5.4.1
       run-async: 2.4.1
-      rxjs: 7.2.0
+      rxjs: 7.5.5
       string-width: 4.2.1
       strip-ansi: 6.0.0
       through: 2.3.8
@@ -1801,7 +1801,7 @@ packages:
     engines: {node: '>=8.0'}
     dependencies:
       date-format: 4.0.3
-      debug: 4.3.3
+      debug: 4.3.4
       flatted: 3.2.5
       rfdc: 1.3.0
       streamroller: 3.0.2
@@ -1866,16 +1866,16 @@ packages:
       picomatch: 2.2.2
     dev: true
 
-  /mime-db/1.51.0:
-    resolution: {integrity: sha512-5y8A56jg7XVQx2mbv1lu49NR4dokRnhZYTtL+KGfaa27uq4pSTXkwQkFJl4pkRMyNFz/EtYDSkiiEHx3F7UN6g==}
+  /mime-db/1.52.0:
+    resolution: {integrity: sha512-sPU4uV7dYlvtWJxwwxHD0PuihVNiE7TyAbQ5SWxDCB9mUYvOgroQOwYQQOKPJ8CIbE+1ETVlOoK1UC2nU3gYvg==}
     engines: {node: '>= 0.6'}
     dev: true
 
-  /mime-types/2.1.34:
-    resolution: {integrity: sha512-6cP692WwGIs9XXdOO4++N+7qjqv0rqxxVvJ3VHPh/Sc9mVZcQP+ZGhkKiTvWMQRr2tbHkJP/Yn7Y0npb3ZBs4A==}
+  /mime-types/2.1.35:
+    resolution: {integrity: sha512-ZDY+bPm5zTTF+YpCrAU9nK0UgICYPT0QtT1NZWFv4s++TNkcgVaT0g6+4R2uI4MjQjzysHB1zxuWL50hzaeXiw==}
     engines: {node: '>= 0.6'}
     dependencies:
-      mime-db: 1.51.0
+      mime-db: 1.52.0
     dev: true
 
   /mime/2.5.2:
@@ -2380,8 +2380,8 @@ packages:
     resolution: {integrity: sha512-AWnkgV488lCVqrUX69PppbdtfuHANXBPIpozr9NbjNp+MZTKtFeBvu8+bSwzxY3EUn0vCOa3MEXTi15eUc+d3A==}
     dev: true
 
-  /release-it/14.13.1:
-    resolution: {integrity: sha512-mrng5bqZDFMr/7oCH3kuflwjKpKki4dUp6yYGxs20scYCvvd8rHAI5pdQOJHwI5BKHAC/pad0UjAEycMWQnEIw==}
+  /release-it/14.14.0:
+    resolution: {integrity: sha512-HOkRYiLHevQvKIgSBSKs+2FJboPEWced5S8lvy4PL6BdPrEKDW7nKkL8Whs6Bc+d1Mvz4kzoxfK2jOmritzq3w==}
     engines: {node: '>=10'}
     hasBin: true
     dependencies:
@@ -2390,17 +2390,17 @@ packages:
       async-retry: 1.3.3
       chalk: 4.1.2
       cosmiconfig: 7.0.1
-      debug: 4.3.3
+      debug: 4.3.4
       execa: 5.1.1
       form-data: 4.0.0
       git-url-parse: 11.6.0
       globby: 11.0.4
       got: 11.8.3
       import-cwd: 3.0.0
-      inquirer: 8.2.0
+      inquirer: 8.2.2
       is-ci: 3.0.1
       lodash: 4.17.21
-      mime-types: 2.1.34
+      mime-types: 2.1.35
       new-github-release-url: 1.0.0
       open: 7.4.2
       ora: 5.4.1
@@ -2527,8 +2527,8 @@ packages:
       tslib: 1.14.1
     dev: true
 
-  /rxjs/7.2.0:
-    resolution: {integrity: sha512-aX8w9OpKrQmiPKfT1bqETtUr9JygIz6GZ+gql8v7CijClsP0laoFUdKzxFAoWuRdSlOdU2+crss+cMf+cqMTnw==}
+  /rxjs/7.5.5:
+    resolution: {integrity: sha512-sy+H0pQofO95VDmFLzyaw9xNJU4KTRSwQIGM6+iG3SypAtCiLDzpeG8sJrNCWn2Up9km+KhkvTdbkrdy+yzZdw==}
     dependencies:
       tslib: 2.1.0
     dev: true
@@ -2618,7 +2618,7 @@ packages:
     dependencies:
       '@types/component-emitter': 1.2.10
       component-emitter: 1.3.0
-      debug: 4.3.3
+      debug: 4.3.4
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -2629,7 +2629,7 @@ packages:
     dependencies:
       accepts: 1.3.7
       base64id: 2.0.0
-      debug: 4.3.3
+      debug: 4.3.4
       engine.io: 6.0.0
       socket.io-adapter: 2.3.2
       socket.io-parser: 4.0.4
@@ -2679,7 +2679,7 @@ packages:
     engines: {node: '>=8.0'}
     dependencies:
       date-format: 4.0.3
-      debug: 4.3.3
+      debug: 4.3.4
       fs-extra: 10.0.0
     transitivePeerDependencies:
       - supports-color
@@ -2847,7 +2847,7 @@ packages:
     engines: {node: '>= 0.6'}
     dependencies:
       media-typer: 0.3.0
-      mime-types: 2.1.34
+      mime-types: 2.1.35
     dev: true
 
   /typedarray-to-buffer/3.1.5:

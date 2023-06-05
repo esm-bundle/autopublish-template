@@ -14,7 +14,7 @@ specifiers:
   pinst: 3.0.0
   prettier: 2.8.8
   pretty-quick: 3.1.3
-  release-it: 15.10.5
+  release-it: 15.11.0
   release-it-plugin-esm-bundle: 3.0.0
   rollup: 2.79.1
   rollup-plugin-terser: 7.0.2
@@ -33,8 +33,8 @@ devDependencies:
   pinst: 3.0.0
   prettier: 2.8.8
   pretty-quick: 3.1.3_prettier@2.8.8
-  release-it: 15.10.5
-  release-it-plugin-esm-bundle: 3.0.0_release-it@15.10.5
+  release-it: 15.11.0
+  release-it-plugin-esm-bundle: 3.0.0_release-it@15.11.0
   rollup: 2.79.1
   rollup-plugin-terser: 7.0.2_rollup@2.79.1
 
@@ -114,7 +114,7 @@ packages:
       '@octokit/graphql': 5.0.0
       '@octokit/request': 6.2.0
       '@octokit/request-error': 3.0.0
-      '@octokit/types': 9.0.0
+      '@octokit/types': 9.2.3
       before-after-hook: 2.2.2
       universal-user-agent: 6.0.0
     transitivePeerDependencies:
@@ -143,10 +143,6 @@ packages:
 
   /@octokit/openapi-types/12.10.0:
     resolution: {integrity: sha512-xsgA7LKuQ/2QReMZQXNlBP68ferPlqw66Jmx5/J399Cn5EgIDaHXou6Rgn1GkpDNjkPji67fTlC2rz6ABaVFKw==}
-    dev: true
-
-  /@octokit/openapi-types/16.0.0:
-    resolution: {integrity: sha512-JbFWOqTJVLHZSUUoF4FzAZKYtqdxWu9Z5m2QQnOyEa04fOFljvyh7D3GYKbfuaSWisqehImiVIMG4eyJeP5VEA==}
     dev: true
 
   /@octokit/openapi-types/17.2.0:
@@ -226,12 +222,6 @@ packages:
     resolution: {integrity: sha512-MFZOU5r8SwgJWDMhrLUSvyJPtVsqA6VnbVI3TNbsmw+Jnvrktzvq2fYES/6RiJA/5Ykdwq4mJmtlYUfW7CGjmw==}
     dependencies:
       '@octokit/openapi-types': 12.10.0
-    dev: true
-
-  /@octokit/types/9.0.0:
-    resolution: {integrity: sha512-LUewfj94xCMH2rbD5YJ+6AQ4AVjFYTgpp6rboWM5T7N3IsIF65SBEOVcYMGAEzO/kKNiNaW4LoWtoThOhH06gw==}
-    dependencies:
-      '@octokit/openapi-types': 16.0.0
     dev: true
 
   /@octokit/types/9.2.3:
@@ -3044,16 +3034,16 @@ packages:
       rc: 1.2.8
     dev: true
 
-  /release-it-plugin-esm-bundle/3.0.0_release-it@15.10.5:
+  /release-it-plugin-esm-bundle/3.0.0_release-it@15.11.0:
     resolution: {integrity: sha512-3N85d6C37Dk1ArUazjOz4nwubOGZS6fL7QLG1Hr0ZXAz7CDLiBfEeq3VccHkT8U0Ho797gWDA2FY36kVDmmpHw==}
     peerDependencies:
       release-it: '>=15.0.0'
     dependencies:
-      release-it: 15.10.5
+      release-it: 15.11.0
     dev: true
 
-  /release-it/15.10.5:
-    resolution: {integrity: sha512-6AWkcOYsEfCzegtAKvXekUG+CLjlFXztDwGzxFOGa8VJRuXbPONfM8rvaPYJX1hTlL5+KC4MWOEoKKzWhQ65gA==}
+  /release-it/15.11.0:
+    resolution: {integrity: sha512-lZwoGEnKYKwGnfxxlA7vtR7vvozPrOSsIgQaHO4bgQ5ARbG3IA6Dmo0IVusv6nR1KmnjH70QIeNAgsWs6Ji/tw==}
     engines: {node: '>=14.9'}
     hasBin: true
     dependencies:

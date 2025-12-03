@@ -12,7 +12,7 @@ specifiers:
   karma-jasmine: 5.1.0
   mocha: 10.8.2
   pinst: 3.0.0
-  prettier: 3.7.3
+  prettier: 3.7.4
   pretty-quick: 4.2.2
   release-it: 19.0.6
   release-it-plugin-esm-bundle: 3.0.0
@@ -31,8 +31,8 @@ devDependencies:
   karma-jasmine: 5.1.0_karma@6.4.4
   mocha: 10.8.2
   pinst: 3.0.0
-  prettier: 3.7.3
-  pretty-quick: 4.2.2_prettier@3.7.3
+  prettier: 3.7.4
+  pretty-quick: 4.2.2_prettier@3.7.4
   release-it: 19.0.6
   release-it-plugin-esm-bundle: 3.0.0_release-it@19.0.6
   rollup: 2.79.2
@@ -2143,13 +2143,13 @@ packages:
       pathe: 2.0.3
     dev: true
 
-  /prettier/3.7.3:
-    resolution: {integrity: sha512-QgODejq9K3OzoBbuyobZlUhznP5SKwPqp+6Q6xw6o8gnhr4O85L2U915iM2IDcfF2NPXVaM9zlo9tdwipnYwzg==}
+  /prettier/3.7.4:
+    resolution: {integrity: sha512-v6UNi1+3hSlVvv8fSaoUbggEM5VErKmmpGA7Pl3HF8V6uKY7rvClBOJlH6yNwQtfTueNkGVpOv/mtWL9L4bgRA==}
     engines: {node: '>=14'}
     hasBin: true
     dev: true
 
-  /pretty-quick/4.2.2_prettier@3.7.3:
+  /pretty-quick/4.2.2_prettier@3.7.4:
     resolution: {integrity: sha512-uAh96tBW1SsD34VhhDmWuEmqbpfYc/B3j++5MC/6b3Cb8Ow7NJsvKFhg0eoGu2xXX+o9RkahkTK6sUdd8E7g5w==}
     engines: {node: '>=14'}
     hasBin: true
@@ -2161,7 +2161,7 @@ packages:
       mri: 1.2.0
       picocolors: 1.1.1
       picomatch: 4.0.2
-      prettier: 3.7.3
+      prettier: 3.7.4
       tinyexec: 0.3.2
       tslib: 2.8.1
     dev: true
